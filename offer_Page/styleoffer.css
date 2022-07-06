@@ -23,11 +23,11 @@
 } */
 
 .logo{
+    text-transform: uppercase;
     cursor: pointer;
     color: rgb(33, 63, 199);
-    font-size: 33px;
-    font-family: Arial;
-    padding-left: 20px;
+    font-size: 30px;
+    padding-left: 0px;
     float: left;
     padding-top: 10px;
     margin-top: 5px;

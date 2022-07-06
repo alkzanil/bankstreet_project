@@ -372,7 +372,7 @@ transition: 0.2s;
   }
 
   .dropdown-content a:hover {
-    background-color: rgb(64, 133, 183);
+    background-color: rgb(33, 63, 199);
   }
   
   .dropdown:hover .dropdown-content {
