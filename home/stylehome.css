@@ -74,6 +74,7 @@ ul li a{
 }
 
 ul li a:hover{
+    color: #fff;
     color: rgb(13, 109, 206);
 
 }
