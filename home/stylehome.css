@@ -462,9 +462,9 @@ transition: 0.4s ease;
    
 }
 ::placeholder{
-    font-size: 30%
+    
     /* text-align: center; */
-    color: #fff;
+    color: rgb(121, 121, 121);
     font-family: Poppins;
 } 
 
