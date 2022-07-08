@@ -74,7 +74,7 @@ ul li a{
 }
 
 ul li a:hover{
-    color: rgb(33, 63, 199);
+    color: rgb(13, 109, 206);
 
 }
 
@@ -176,7 +176,7 @@ ul li a:hover{
     
 }
 
-.content a{
+.enq_btn{
 
 display: inline-block;
 font-size: 1em;
@@ -190,8 +190,9 @@ letter-spacing: 2px;
 transition: 0.2s;
 }
 
-.content a:hover{
-    
+.enq_btn:hover{
+    background-color: rgb(13, 109, 206);
+    color: #fff;
     letter-spacing: 6px;
 }
 
@@ -387,9 +388,9 @@ transition: 0.2s;
 
 
 
-/* .form{
+.form{
     width: 250px;
-    height: 380px;
+    height: 250px;
     background: linear-gradient(to top, rgba(0,0,0,0.8),rgba(0,0,0,0.8));
     position: absolute;
     top: -20px;
@@ -401,17 +402,17 @@ transition: 0.2s;
 
 .form h2{
     width: 220px;
-    font-family: sans-serif;
+    font-family: Poppins;
     text-align: center;
     color: #fff;
     font-size: 22px;
     /* background-color: rgb(33, 63, 199); */
-    /* border-radius: 10px;
+    border-radius: 10px;
     margin: 2px;
     padding: 8px;
-} */
+}
 
-/* .form input{
+.form input{
     width: 240px;
     height: 35px;
     background: transparent;
@@ -419,23 +420,42 @@ transition: 0.2s;
     border-top: none;
     border-right: none;
     border-left: none;
-    color: rgb(13, 109, 206);
+    color: #fff;
     font-size: 15px;
     letter-spacing: 1px;
     margin-top: 30px;
-    font-family: sans-serif;
+    font-family: poppins;
 }
 
 .form input:focus{
     outline: none;
 }
 
+.form .sub_btn{
+float: right;
+margin-right: 55px;
+font-size: 1em;
+background: #fff;
+padding: 10px 30px;
+text-decoration: none;
+color: #111;
+margin-top: 25px;
+/* text-transform: uppercase; */
+transition: 0.4s ease;
+}
+
+
+ .sub_btn:hover{
+    background: rgb(13, 109, 206);
+    color: #fff;
+   
+}
 ::placeholder{
     color: #fff;
     font-family: Arial;
-}  */
+} 
 
-/* .btnn{
+ /* .btnn{
     width: 240px;
     height: 40px;
     background: rgb(33, 63, 199);
@@ -456,22 +476,22 @@ transition: 0.2s;
     text-decoration: none;
     color: #fff;
     font-weight: bold;
-}
-.form .link{
-    font-family: Arial, Helvetica, sans-serif;
+} */
+/* .form .link{
+    font-family: Poppins;
     font-size: 17px;
     padding-top: 20px;
-    text-align: center;
-}
-.form .link a{
+    text-align: left;
+} */
+/* .form .link a{
     text-decoration: none;
     color: rgb(33, 63, 199);
-}
-.liw{
+}  */
+/* .liw{
     padding-top: 15px;
     padding-bottom: 10px;
     text-align: center;
-} */
+}  */
 /* .icons a{
     text-decoration: none;
     color: #fff;
