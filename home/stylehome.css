@@ -404,7 +404,7 @@ transition: 0.2s;
 
 .form h2{
     width: 220px;
-    font-family: Poppins;
+    font-family: 'Poppins';
     text-align: center;
     color: #fff;
     font-size: 22px;
@@ -435,7 +435,7 @@ transition: 0.2s;
     font-size: 15px;
     letter-spacing: 1px;
     margin-top: 30px;
-    font-family: poppins;
+    font-family: 'poppins';
 }
 
 .form input:focus{
@@ -465,7 +465,7 @@ transition: 0.4s ease;
     
     /* text-align: center; */
     color: rgb(121, 121, 121);
-    font-family: Poppins;
+    font-family: 'Poppins';
 } 
 
  /* .btnn{

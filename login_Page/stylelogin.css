@@ -1,10 +1,10 @@
 /* Google Font Link */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 body{
     min-height: 100vh;
@@ -24,7 +24,7 @@ body{
 
 .container{
 position: relative;
-height: 85%;
+height: 90%;
 max-width: 850px;
 width: 100%;
 background: #ffffff;
@@ -106,6 +106,8 @@ perspective: 2800px;
 
 
 .container .cover .text{
+    font: 'poppins';
+    text-transform: uppercase;
     position: absolute;
     z-index: 111;
     height: 100%;
@@ -115,12 +117,14 @@ perspective: 2800px;
     align-items: center;
     justify-content: center;
 }
-.cover .text .text-1,
-.cover .text .text-2 {
+.text-1,
+.text-2 {
+    z-index: 1000px;
     font-size: 26px;
     font-weight: 600;
     color: #fff;
     text-align: center;
+    visibility: visible;
     backface-visibility: hidden;
 }
 
@@ -258,7 +262,7 @@ form .form-content label:hover{
 form .form-content .login-text,
 form .form-content .sign-up-text{
  text-align: center;
- margin-top: 35px;
+ margin-top: 30px;
 }
 .container #flip{
     display: none;
