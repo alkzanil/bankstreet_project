@@ -38,6 +38,7 @@
                     <li><a href="#">NEWS</a></li>
                     <li><a href="#">BLOG</a></li>
                     <li><a href="#">CONTACT</a></li>
+                    <li class="toggle"></li>
                     <!-- <li><a href="#">LOG IN</a></li> -->
                 </ul>
             </div>
@@ -48,6 +49,7 @@
             </div> -->
 
         </div> 
+
         <div class="content">
             <h2>We are just</h2><br><h1>One Click</h1><br><h2>away!</h2>
             <!-- <p class="par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt neque 
@@ -83,6 +85,12 @@
       <!-- <div class="claim_text">
         <h1><center><span class="animated_span_text">We are here to serve you!</span></center></h1>
     </div> -->
+
+  
+
+
+
+
         <div id="services">
         <div class="productholder">
         <!-- <div class="card">
@@ -106,5 +114,14 @@
     </div>
 
     <script src="apps.js"></script>
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.main')
+ 
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
 </body>
 </html>
