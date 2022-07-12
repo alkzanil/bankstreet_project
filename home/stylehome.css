@@ -39,6 +39,7 @@
     float: left;
     padding-top: 10px;
     margin-top: 5px;
+    margin-left: 30px;
     font-size: 30px;
 }
 
@@ -46,7 +47,7 @@
     width: 400px;
     float: left;
     height: 70px;
-    margin-left: 100px;
+    margin-left: 140px;
     
 }
 
@@ -148,6 +149,7 @@ ul li a:hover{
     margin-top: 100px ;
     position: relative;
     z-index: 10;
+    margin-left: 28px;
 }
 
 /* .content .par{
@@ -253,6 +255,18 @@ transition: 0.2s;
     display: inline-block;
     justify-content: space-between;
     width: 100%;
+}
+.claim_text{
+    margin: 0px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    background-color: #fff;
+    color: rgb(13, 33, 122);
+    transition: 0.3s;
+    
 }
 
 
@@ -419,7 +433,7 @@ transition: 0.2s;
     
 }
 
-span:before{
+.random_txt:before{
     content:'';
     animation: animate infinite 8s;
     color: rgb(255, 217, 2);
@@ -443,6 +457,19 @@ span:before{
             content: 'No Hidden Fees.';
         }
     }
+
+.animated_span_text{
+        animation: span infinite 2s;
+    }
+
+@keyframes span{
+    from{
+        color: #dfcc1d;
+    }
+    to{
+        color: rgb(13, 33, 122);
+    }
+}
 
 /* .form h5{
     margin-top: 90px;
