@@ -256,7 +256,7 @@ transition: 0.2s;
     justify-content: space-between;
     width: 100%;
 }
-.claim_text{
+/* .claim_text{
     margin: 0px;
     padding: 20px;
     box-sizing: border-box;
@@ -267,7 +267,7 @@ transition: 0.2s;
     color: rgb(13, 33, 122);
     transition: 0.3s;
     
-}
+} */
 
 
 #services{
@@ -458,7 +458,7 @@ transition: 0.2s;
         }
     }
 
-.animated_span_text{
+/* .animated_span_text{
         animation: span infinite 2s;
     }
 
@@ -469,7 +469,7 @@ transition: 0.2s;
     to{
         color: rgb(13, 33, 122);
     }
-}
+} */
 
 /* .form h5{
     margin-top: 90px;
