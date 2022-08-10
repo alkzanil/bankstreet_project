@@ -10,55 +10,59 @@
 </head>
 <body>
 
-    <div class="main">
-      
-
-        <div class="navbar">
-            <div class="icon">
+    <section class="showcase">
+           
+            <!-- <div class="header"> -->
+             <header>
                 <h2 class="logo">Bankstreet.in</h2>
-            </div>
+            
+                <div class="menu_1">
+                    <ul>
+                        
+                        <div class="dropdown">
+                          <li> <a href="#services">SERVICES</a>
+                                <i class="fa fa-caret-down"></i>
+                            </li> 
+                              <div class="dropdown-content">
+                                <a href="#">Personal Loan</a>
+                                <a href="#">Home Loan</a>
+                                <a href="#">Business Loan</a>
+                                <a href="#">Balance Transfer</a>
+                              </div>
+                        </div>
+                        <!-- <li><a href="#services">SERVICES</a></li> -->
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="/offer_Page/offer.html">OFFERS</a></li>
+                        <li><a href="#">NEWS</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                     
+                        <!-- <li><a href="#">LOG IN</a></li> -->
+                    </ul>
+                   
+                </div>
+               
+              <div class="toggle"></div>
+                <!-- <div class="toggle"></div> -->
+            </header>  
             <!-- <div class="overlay"></div> -->
-            <div class="menu">
-                <ul>
-                    
-                    <div class="dropdown">
-                      <li> <a href="#services">SERVICES</a>
-                            <i class="fa fa-caret-down"></i>
-                        </li> 
-                          <div class="dropdown-content">
-                            <a href="#">Personal Loan</a>
-                            <a href="#">Home Loan</a>
-                            <a href="#">Business Loan</a>
-                            <a href="#">Balance Transfer</a>
-                          </div>
-                    </div>
-                    <!-- <li><a href="#services">SERVICES</a></li> -->
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="/offer_Page/offer.html">OFFERS</a></li>
-                    <li><a href="#">NEWS</a></li>
-                    <li><a href="#">BLOG</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                    <li class="toggle"></li>
-                    <!-- <li><a href="#">LOG IN</a></li> -->
-                </ul>
-            </div>
+          
 
             <!-- <div class="search">
                 <input class="srch" type="search" name="" placeholder="Type To text">
                 <a href="#"> <button class="btn">Search</button></a>
             </div> -->
 
-        </div> 
-
-        <div class="content">
-            <h2>We are just</h2><br><h1>One Click</h1><br><h2>away!</h2>
-            <!-- <p class="par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt neque 
-                 expedita atque eveniet <br> quis nesciunt. Quos nulla vero consequuntur, fugit nemo ad delectus 
-                <br> a quae totam ipsa illum minus laudantium?</p> -->
+     
+       
+     <div class="text_body">
+              <div class="content">
+                 <h2>We are just</h2><br><h1>One Click</h1><br><h2>away!</h2>
+           
                 
                 <a class="enq_btn" href="https://bankstreet.in/call-back-form/">Enquire Us</a>
 
-                <div class="anime_text">
+                <div class="anime_text"> 
 
                     <h4><span class="random_txt"></span></h4>
 
@@ -75,11 +79,23 @@
                    -->
 
                 <!-- </div> -->
-        </div>
+          </div>
                 
-        
-    </div>
+        </div>
     
+</section>
+
+<div class="menu">
+    <ul>
+        <li><a href="/home/home.html">Home</a></li>
+        <li><a href="#">Loans</a></li>
+        <li><a href="/offer_Page/offer.html">Offers</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="/login_Page/LoginPage.html">Log In</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
+</div>
 
     <!-- Division of products -->
       <!-- <div class="claim_text">
@@ -91,7 +107,8 @@
 
 
 
-        <div id="services">
+        <section id="services" class="services">
+            
         <div class="productholder">
         <!-- <div class="card">
             <img src="moneylogo.jpg" class="card-img-top" >
@@ -103,25 +120,26 @@
             </div>
         </div> -->
     </div>
-</div>
+</section>
     <!-- Division for About -->
-    <div id="about">
+    <section id="about" class="about">
     <h1><center>About Us</center></h1>
     <div class="textbox">
         <p>Bankstreet is a highly appreciated accepted loan service provider serving residential, commercial and personal requirements of our clients all over the country.</p>
     </div>
 
-    </div>
+</section>
 
-    <script src="apps.js"></script>
+    
     <script>
         const menuToggle = document.querySelector('.toggle')
-        const showcase = document.querySelector('.main')
+        const showcase = document.querySelector('.showcase')
  
-        menuToggle.addEventListener('click', () => {
-            menuToggle.classList.toggle('active')
+   menuToggle.addEventListener('click', () => {
+          menuToggle.classList.toggle('active')
             showcase.classList.toggle('active')
         })
     </script>
+    <script src="apps.js"></script>
 </body>
 </html>
