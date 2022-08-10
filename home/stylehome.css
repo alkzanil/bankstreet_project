@@ -18,7 +18,7 @@
     padding: 10px;
     /* align-items: center; */
     min-height: 100vh;
-    background: url(backhome1.jpg);
+    background: url(/images/backhome.png);
     /* filter: brightness(50%); */
     color: #fff; 
     background-size: cover;
