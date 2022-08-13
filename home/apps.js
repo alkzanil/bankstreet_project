@@ -4,19 +4,19 @@ const products = document.querySelector(".productholder");
 function renderServiceCards(contentList, element){
     let code= `
     <div class="card">
-            <img src="${contentList[0]}"  class="card-img-top">
+            
             <div class="card-body">
-              <h4><a href="#" class="linktxt">${contentList[1]}</a></h4>
+              <h4><a href="#" class="linktxt">${contentList[0]}</a></h4>
               <h5><p class="card-text">
-                ${contentList[2]}
+                ${contentList[1]}
                 </p></h5>
             </div>
         </div>
     `;
     element.innerHTML += code;
 }
-const productsArray=[["axis.jpg" ,"Personal Loan" ,"10.51%"], ["hdfc.jpg" ,"Home Loan" ,"6.45%"], ["IndusInd.jpg" ,
-"Business Loan" ,"12.5%"], ["icici.jpg" ,"Balance Transfer" ,"10.51%"], ["kotak.jpg" ,"Credit cards" ,"10.51%"]];
+const productsArray=[["Personal Loan" ,"10.51%"], ["Home Loan" ,"6.45%"], [
+"Business Loan" ,"12.5%"], ["Balance Transfer" ,"10.51%"], ["Credit cards" ,"10.51%"]];
 
 productsArray.map(item=> renderServiceCards(item, products))
 
